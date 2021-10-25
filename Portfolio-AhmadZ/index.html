@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Zughaer Portfolio</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        h1,
+        h2 {
+            display: inline;
+        }
+
+        h1 {
+            margin-left: 10px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        h2 {
+            margin-left: 400px;
+            font-family: arial;
+            font-size: 20px;
+        }
+
+        p,
+        a {
+            padding: 10px;
+            font-family: arial;
+
+        }
+
+        h3,
+        h4 {
+            padding: 9px 0px 9px 10px;
+            background: linear-gradient(#797986, #35305e, #4f4fd4);
+            font-family: arial;
+            font-weight: normal;
+            color: white;
+
+        }
+
+        #main_content {
+            box-sizing: border-box;
+            width: 970px;
+            padding: 15px 12px 15px 20px;
+            background: radial-gradient(#8f2f2f, #58535f);
+
+
+        }
+
+        #profile_photo {
+            max-width: 405px;
+            display: inline-block;
+            vertical-align: top;
+            border: 5px solid #bebdbd
+        }
+
+        #bio {
+            max-width: 480px;
+            height: 500px;
+            margin-left: 20px;
+            display: inline-block;
+            vertical-align: top;
+            background: linear-gradient(to right, #ffffff, #dacbd8);
+        }
+
+        .subcontents {
+            width: 290px;
+            margin: 20px 20px 20px 0px;
+            background: linear-gradient(to right, #ffffff, #dacbd8);
+            display: inline-block;
+
+        }
+
+        .sub_img {
+            width: 280px;
+            height: 200px;
+            align-self: center;
+        }
+
+        .sub_text {
+            font-size: 14px;
+            height: 140px;
+            text-align: left;
+        }
+
+        .tech_img_block {
+            padding: 5px 0px 5px 10px;
+            box-sizing: border-box;
+        }
+
+        .tech_img {
+            max-width: 40px;
+            margin: 5px;
+        }
+
+        .project_link_box {
+            height: 40px;
+            text-align: center;
+        }
+
+        .project_link {
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: #722192;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 5px 5px 5px gray;
+        }
+
+        #footer {
+            box-sizing: border-box;
+            width: 970px;
+            padding-bottom: 10px;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+
+        #contacts {
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            max-width: 20px;
+            padding: 0px;
+            vertical-align: middle;
+
+        }
+
+        .footer_link {
+            font-style: italic;
+            padding: 0px;
+
+        }
+        .projects {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Ahmad Zughaer</h1>
+        <h2>Front-End Developer</h2>
+    </div>
+
+    <div id="main_content">
+        <img id="profile_photo" src="images/ahmadz.jpg" alt="Ahmads'img">
+        <div id="bio">
+            <h3>About me... </h3>
+            <p>Self-sufficient front-end developer, attended intensive Bootcamp to develop skills in web development,
+                problem-solving, technical analysis, and communication throughout practicing real-world programming
+                challenges using different technologies.
+               <br> <a href="index.html">Continue reading</a>
+        </div><br>
+        <div class="projects">
+            <h3> My Projects</h3>
+        </div>
+        <div class="subcontents">
+            <h3>Nice Table using Html5</h3>
+            <img class="sub_img" src="images/tables.PNG" alt="table">
+            <p class="sub_text">I have created a table using Html5 and some of CSS3</p>
+            <h4>Languages: </h4>
+            <div class="tech_img_block">
+                <img class="tech_img" src="images/CSS.png" alt="TEXT">
+                <img class="tech_img" src="images/HTML.png" alt="TEXT">
+            </div>
+
+        </div>
+        <div class="subcontents">
+            <h3>A messy Html page</h3>
+            <img class="sub_img" src="images/page.PNG" alt="nancy song">
+            <p class="sub_text"> I have created this page as a part of AppleSeeds Full stack Bootcamp</p>
+            <h4>Languages:</h4>
+            <div class="tech_img_block">
+                <img class="tech_img" src="images/CSS.png" alt="TEXT">
+                <img class="tech_img" src="images/HTML.png" alt="TEXT">
+            </div>
+        </div>
+        <div class="subcontents">
+            <h3>Three different lists</h3>
+            <img class="sub_img" src="images/lists.PNG" alt="nancy song">
+            <p class="sub_text"> I have created three different lists as a part of AppleSeeds Full stack Bootcamp</p>
+            <h4>Languages:</h4>
+            <div class="tech_img_block">
+                <img class="tech_img" src="images/CSS.png" alt="TEXT">
+                <img class="tech_img" src="images/HTML.png" alt="TEXT">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p id="contacts">Ahmadzughaer@gmail.com | 050000000</p>
+        <img class="icon" src="images/linkedin.png" alt="TEXT">
+        <a class="footer_link" href="https://www.linkedin.com/in/ahmad-zughaer-28927612b/" target="blank">Ahmadzughaer</a>
+        <img class="icon" src="images/github.png" alt="TEXT">
+        <a class="footer_link" href="https://github.com/ahmadzughaer" target="blank">Ahmadzughaer</a>
+        <img class="icon" src="images/facebook.png" alt="TEXT">
+        <a class="footer_link" href="https://www.facebook.com/ahmadzugo" target="blank">Ahmadzughaer</a>
+
+    </div>
+
+</body>
+
+</html>
