@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .header {
+        height: 130px;
+        width: 100%;
+        background-color: blue;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, blue, green);
+    }
+
+    .continer {
+        height: 500px;
+        width: 100%;
+        background-color: green;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, green, yellow);
+        display: flex;
+        
+        padding: 10px;
+
+
+
+    }
+
+    .footer {
+        height: 100px;
+        width: 100%;
+        background-color: yellow;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, red, yellow);
+    }
+
+    #header_content {
+        color: white;
+        font-family: "Sofia", sans-serif;
+    }
+
+    /* #continer_content {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    } */
+
+    #footer_content {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .card {
+        height: 80%;
+        width: 49%;
+        background-color: grey;
+        border: soild white 5px;
+
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .links {
+        display: inline;
+        padding-top: 100px;
+    }
+
+    .links a {
+        padding-left: 5px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+</head>
+
+<body>
+
+    <div class="header"><span id="header_content" >This is the header</span>
+    </div>
+    <div class="continer">
+        <div class="card">
+            <img src="https://www.italyweloveyou.com/wp-content/uploads/2020/07/Aosta-piazza-%C3%89mile-Chanoux.jpg">
+            <h3>Aosta Valley</h3>
+            <p>Cool places to visit:</p>
+            <div class="links"><a href="#">Old town</a> <a href="#">Bridge</a><a href="#">Castel</a></div>
+        </div>
+        <div class="card">
+            <img src="https://www.italyweloveyou.com/wp-content/uploads/2020/07/Arch-of-Augustus-Aosta.jpg">
+            <h3>Aosta Valley</h3>
+            <p>Cool places to visit:</p>
+            <div class="links"><a href="#">Old town</a> <a href="#">Bridge</a><a href="#">Castel</a></div>
+        </div>
+    </div>
+    <div class="footer"><span id="footer_content">This is the footer</span></div>
+
+
+</body>
+
+</html>
